@@ -56,7 +56,7 @@ Voice Recognition Module for MagicMirror<sup>2</sup>
 Run <code>cd installer</code> and <code>bash pocketsphinx_install.sh</code>. This should install all the required external tools.
 
 ## Adding Voice Command in your own module
-For adding voice commands in your module, first declare a mode adding <code>this.sendNotification('REGISTER_VOICE_MODULE',{ mode: "MODE_NAME"}, this);</code>
+For adding voice commands in your module, first declare a mode by adding <code>this.sendNotification('REGISTER_VOICE_MODULE',{ mode: "MODE_NAME"}, this);</code> in the getDom function of your module.
 Then, add a file called 'commands.json' in your module directory with the following pattern:
 
     ```
