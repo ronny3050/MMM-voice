@@ -21,7 +21,7 @@ Voice Recognition Module for MagicMirror<sup>2</sup>
         module: 'MMM-voice',
         position: 'bottom_bar',
         config: {
-            id: 4548
+            id: 'base'
             ...
         }
     }
@@ -52,5 +52,5 @@ Voice Recognition Module for MagicMirror<sup>2</sup>
 | `timeout` | 15 | time the keyword should be active without saying something |
 | `id` | REQUIRED | id of dictionairy file |
 
-## Custom Dictionairy
-Go to [Sphinx Knowledge Base Tool](http://www.speech.cs.cmu.edu/tools/lmtool-new.html) and create your own
+## Installer
+Run <code>cd installer</code> and <code>bash pocketsphinx_install.sh</code>. This should install all the required external tools.
